@@ -10,6 +10,11 @@ public class HW0312 {
         int index = 3;
         String str = "Hello";
         System.out.println(removeCharAtIndex(str, index));
+        //t3
+        String string = "money";
+        int begin = 1;
+        int end = 4;
+        System.out.println(ourSubstring(string, begin, end));
 
     }
     public static boolean ret (String name, String name1){//t1
@@ -24,6 +29,13 @@ public class HW0312 {
         String strNew = str.substring(0, index );
         String strNew2 = str.substring(index +1);
         return strNew + strNew2;
+    }
+    public static String ourSubstring(String string, int begin, int end){
+        String res = "";
+        for (int i = begin; i<string.length() && i<end; i++){
+            res = res + string.charAt(i);
+        }
+        return res;
     }
 
 }
