@@ -1,6 +1,6 @@
 package WIP_trucks;
 
-public class Main {
+public class Main {//
     public static void main(String[] args) {
         Car car = new Car("Cyber Track", "Tesla", 2023, "Steel",
                 100,50,"Elon MUsk" );

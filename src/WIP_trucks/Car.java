@@ -1,6 +1,6 @@
 package WIP_trucks;
 
-import java.util.Scanner;
+import java.util.Scanner;//
 
 public class Car {
     private String model;
