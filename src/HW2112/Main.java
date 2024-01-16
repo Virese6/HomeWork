@@ -12,8 +12,9 @@ public class Main {
         double b = rectangle.resultAR;
         squareOfEveryShape(a,b);
     }
-    public static void squareOfEveryShape(double a, double b){
+    public static double squareOfEveryShape(double a, double b){
         System.out.println("Square " + Circle.class.getSimpleName() + " and " + Rectangle.class.getSimpleName() +
                 " = " + (a+b));
+        return a+b;
     }
 }

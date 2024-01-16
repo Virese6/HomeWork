@@ -21,16 +21,17 @@ public class Calculator {
         return z;
     }
 
-    double sum2Numbers(double x, double y){
+    double sum(double x, double y){
+
         return x+y;
     }
-    double sum3Numbers(double x, double y, double z){
+    double sum(double x, double y, double z){
         return x+y+z;
     }
-    double difference2Numbers(double x, double y){
+    double diff(double x, double y){
         return x-y;
     }
-    double difference3Numbers(double x, double y, double z){
+    double diff(double x, double y, double z){
         return (x-y-z);
     }
 }

@@ -5,6 +5,6 @@ public class Garden {
         Plant pine = new Tree("Pine Tree",0,0);
         Plant tulip = new Flower("Tulip", 0, 0);
         pine.growPlants();
-       tulip.growPlants();
+        tulip.growPlants();
     }
 }
