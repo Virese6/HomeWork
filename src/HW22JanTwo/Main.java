@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Main {
     public static void main(String[] args) {
-        File newFile = new File("HW22Jan2.txt");
+        File newFile = new File("C:\\Users\\AIT TR Student\\IdeaProjects\\HomeWork27.11\\src\\HW22JanTwo\\HW22Jan2.txt");
         System.out.println(strLong(newFile));
     }
     public static String strLong (File newFile){

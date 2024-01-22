@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        File newFile = new File("HW22Jan1.txt");
+        File newFile = new File("C:\\Users\\AIT TR Student\\IdeaProjects\\HomeWork27.11\\src\\HW22Jan\\HW22Jan1.txt");
         System.out.println(sum(newFile));
     }
 
