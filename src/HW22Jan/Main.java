@@ -3,10 +3,11 @@ package HW22Jan;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        File newFile = new File("HW22.01#1");
+        File newFile = new File("HW22Jan1.txt");
         System.out.println(sum(newFile));
     }
 
@@ -18,7 +19,7 @@ public class Main {
                 sum = sum + Integer.parseInt(str);
             }
         }
-        catch (Exception e){
+        catch (IOException e){
             System.out.println(e.getMessage());
         } return sum;
     }
